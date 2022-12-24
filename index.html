@@ -2,14 +2,20 @@
 <style>
 * {
     box-sizing: border-box;
+    touch-action: manipulation;
 }
 body {
     margin: 0;
     background-color:black;
 }
+@media(min-height: 59vw) {
+    .container {
+        top: calc(50vh - (90vw * 49/150));
+    }
+}
 .container {
     position: absolute;
-    margin-left: 5vw;
+    left: 5vw;
     width: 90vw;
     height: calc(90vw * 392/600);
 }
