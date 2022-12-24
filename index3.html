@@ -1,0 +1,106 @@
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color:black;
+}
+.img {
+    position: absolute;
+    display: block;
+}
+.pacnorthwest {
+    background-image: url("https://radar.weather.gov/ridge/standard/PACNORTHWEST_0.gif");
+    background-position: -100 -24px;
+    height: 523px;
+    width: 300px;
+}
+.northrockies {
+    left: 310px;
+    background-image: url("https://radar.weather.gov/ridge/standard/NORTHROCKIES_0.gif");
+    background-position: 0 -24px;
+    height: 523px;
+    width: 500px;
+}
+.uppermissvly {
+    left: 820px;
+    background-image: url("https://radar.weather.gov/ridge/standard/UPPERMISSVLY_0.gif");
+    background-position: 0 -24px;
+    height: 523px;
+    width: 600px;
+}
+.centgrlakes {
+    left: 1430px;
+    background-image: url("https://radar.weather.gov/ridge/standard/CENTGRLAKES_0.gif");
+    background-position: -100px -24px;
+    height: 523px;
+    width: 500px;
+}
+.northeast {
+    left: 1940px;
+    background-image: url("https://radar.weather.gov/ridge/standard/NORTHEAST_0.gif");
+    background-position: -150px -24px;
+    height: 523px;
+    width: 450px;
+}
+.pacsouthwest {
+    top: 533px;
+    left: 30px;
+    background-image: url("https://radar.weather.gov/ridge/standard/PACSOUTHWEST_0.gif");
+    background-position: -100px -274px;
+    height: 173px;
+    width: 450px;
+}
+.southrockies {
+    top: 533px;
+    left: 490px;
+    background-image: url("https://radar.weather.gov/ridge/standard/SOUTHROCKIES_0.gif");
+    background-position: -250px -174px;
+    height: 298px;
+    width: 350px;
+}
+.southplains {
+    top: 533px;
+    left: 870px;
+    background-image: url("https://radar.weather.gov/ridge/standard/SOUTHPLAINS_0.gif");
+    background-position: -200px -124px;
+    height: 397px;
+    width: 400px;
+}
+.southmissvly {
+    top: 533px;
+    left: 1300px;
+    background-image: url("https://radar.weather.gov/ridge/standard/SOUTHMISSVLY_0.gif");
+    background-position: -225px -149px;
+    height: 397px;
+    width: 275px;
+}
+.southeast {
+    top: 533px;
+    left: 1610px;
+    background-image: url("https://radar.weather.gov/ridge/standard/SOUTHEAST_0.gif");
+    background-position: -225px -49px;
+    height: 498px;
+    width: 375px;
+}
+
+</style>
+</head>
+<body>
+    <a class="img pacnorthwest" href="https://radar.weather.gov/ridge/standard/PACNORTHWEST_0.gif"></a>
+    <a class="img northrockies" href="https://radar.weather.gov/ridge/standard/NORTHROCKIES_0.gif"></a>
+    <a class="img uppermissvly" href="https://radar.weather.gov/ridge/standard/UPPERMISSVLY_0.gif"></a>
+    <a class="img centgrlakes" href="https://radar.weather.gov/ridge/standard/CENTGRLAKES_0.gif"></a>
+    <a class="img northeast" href="https://radar.weather.gov/ridge/standard/NORTHEAST_0.gif"></a>
+    <a class="img pacsouthwest" href="https://radar.weather.gov/ridge/standard/PACSOUTHWEST_0.gif"></a>
+    <a class="img southrockies" href="https://radar.weather.gov/ridge/standard/SOUTHROCKIES_0.gif"></a>
+    <a class="img southplains" href="https://radar.weather.gov/ridge/standard/SOUTHPLAINS_0.gif"></a>
+    <a class="img southmissvly" href="https://radar.weather.gov/ridge/standard/SOUTHMISSVLY_0.gif"></a>
+    <a class="img southeast" href="https://radar.weather.gov/ridge/standard/SOUTHEAST_0.gif"></a>
+    <script>
+        const items = document.querySelectorAll(".uppermissvly");
+        items[0].scrollIntoView();
+    </script>
+</body>

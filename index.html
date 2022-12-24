@@ -1,0 +1,86 @@
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color:black;
+}
+.container {
+    position: absolute;
+    margin-left: 5vw;
+    width: 90vw;
+    height: calc(90vw * 392/600);
+}
+.radar {
+    position: absolute;
+    display: block;
+    width: 100%;
+    image-rendering: pixelated;
+}
+.region {
+    position: absolute;
+    display: block;
+    border: .1vw solid red;
+    height: calc(17200% / 392);
+}
+.north {
+    top: calc(2400% / 392);
+    width: 20%;
+}
+.south {
+    top: 50%;
+}
+.pacnorthwest {
+    left: 0%;
+}
+.northrockies {
+    left: 20%;
+}
+.uppermissvly {
+    left: 40%;
+}
+.centgrlakes {
+    left: 60%;
+}
+.northeast {
+    left: 80%;
+}
+.pacsouthwest {
+    left: 0%;
+    width: 20%;
+}
+.southrockies {
+    left: 20%;
+    width: 15%;
+}
+.southplains {
+    left: 35%;
+    width: 15%;
+}
+.southmissvly {
+    left: 50%;
+    width: 15%;
+}
+.southeast {
+    left: 65%;
+    width: 35%;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <img class="radar" src="https://radar.weather.gov/ridge/standard/CONUS_0.gif">
+        <a class="region north pacnorthwest" href="https://radar.weather.gov/ridge/standard/PACNORTHWEST_0.gif"></a>
+        <a class="region north northrockies" href="https://radar.weather.gov/ridge/standard/NORTHROCKIES_0.gif"></a>
+        <a class="region north uppermissvly" href="https://radar.weather.gov/ridge/standard/UPPERMISSVLY_0.gif"></a>
+        <a class="region north centgrlakes" href="https://radar.weather.gov/ridge/standard/CENTGRLAKES_0.gif"></a>
+        <a class="region north northeast" href="https://radar.weather.gov/ridge/standard/NORTHEAST_0.gif"></a>
+        <a class="region south pacsouthwest" href="https://radar.weather.gov/ridge/standard/PACSOUTHWEST_0.gif"></a>
+        <a class="region south southrockies" href="https://radar.weather.gov/ridge/standard/SOUTHROCKIES_0.gif"></a>
+        <a class="region south southplains" href="https://radar.weather.gov/ridge/standard/SOUTHPLAINS_0.gif"></a>
+        <a class="region south southmissvly" href="https://radar.weather.gov/ridge/standard/SOUTHMISSVLY_0.gif"></a>
+        <a class="region south southeast" href="https://radar.weather.gov/ridge/standard/SOUTHEAST_0.gif"></a>
+    </div>
+</body>
